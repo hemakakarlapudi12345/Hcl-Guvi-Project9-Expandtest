@@ -1,0 +1,18 @@
+
+
+<suite name="AutomationSuite">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="AllTests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.NotesTest"/>
+            <class name="tests.FormTest"/>
+            <class name="tests.AlertTest"/>
+        </classes>
+    </test>
+
+</suite>
